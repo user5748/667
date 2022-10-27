@@ -1,0 +1,124 @@
+body {
+    margin: 0 auto;
+    padding: 0s;
+
+
+}
+
+.main {
+    width: 100%;
+    float: left;
+    background-color: rgb(158, 202, 202);
+    height: 100%;
+}
+    .header {
+        width: 100%;
+        height: 150px;
+        background-color: wheat;
+        float: left;
+        margin-bottom: 10px;
+    }
+    
+    .nav1 {
+        height: 450px;
+        width: 19%;
+        background-color: black;
+        float: left;
+        margin-right: 1%;
+    }
+    
+    .article {
+        height: 450px;
+        width: 60%;
+        background-color: azure;
+        float: left;
+        margin-right: 1%;
+    }
+    
+    .nav2 {
+        height: 450px;
+        width: 19%;
+        background-color: black;
+        float: left;
+    }
+    
+    .footer {
+    
+    margin-top: 10px;
+        width: 100%;
+        height: 150px;
+        background-color: wheat;
+        float: left;
+    }
+
+
+@media only screen and (max-width: 800px) {
+    .header{
+        width: 100%;
+        height: 100px;
+
+
+    }
+    .article {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    .nav1 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    .nav2 {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 10px;
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 100px;
+
+    }
+}
+@media only screen and  (max-width: 800px) and (min-width: 600px){
+
+
+    .header{
+
+        width: 100%;
+        height: 150px;
+    }
+    .article {
+        width: 32.3%;
+        height: 450px;
+        margin-right: 2%;
+
+    }
+
+    .nav1 {
+        width: 31.3%;
+        height: 450px;
+        margin-right: 2%;
+
+
+    }
+
+    .nav2 {
+        width: 31.3%;
+        height: 450px;
+
+    }
+
+    .footer {
+        width: 100%;
+        height: 150px;
+
+
+    }
+}
